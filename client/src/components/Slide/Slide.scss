@@ -1,0 +1,17 @@
+/** @format */
+
+.slide {
+   display: flex;
+   justify-content: center;
+   padding: 100px 0;
+   .container {
+      width: 1400px;
+
+      .slick-prev:before,
+      .slick-next:before {
+         font-size: 50px;
+         background-color: lightgray;
+         border-radius: 50%;
+      }
+   }
+}
